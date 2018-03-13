@@ -188,7 +188,7 @@ if err != nil { log.Fatal(err) }
 
 </code-example>
 
-## Discoverablity and Meta information
+## Discoverability and Meta information
 
 Another thing that is important when you issue an asset is to provide clear information about what your asset represents. This info can be discovered and displayed by clients so users know exactly what they are getting when they hold your asset. 
 To do this you must do two simple things. First, add a section in your [stellar.toml file](concepts/stellar-toml.html) that contains the necessary meta fields:
